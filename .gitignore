@@ -1,0 +1,14 @@
+# Downloaded synthetic health records and prepared datasets
+/data/*
+!/data/synthea/
+/data/synthea/*
+!/data/synthea/.gitkeep
+
+# Trained checkpoints and experiment results
+/outputs/*
+!/outputs/.gitkeep
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
